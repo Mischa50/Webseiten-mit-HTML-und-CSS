@@ -1,0 +1,103 @@
+html,
+body {
+    margin: 0;
+}
+
+header,
+main,
+footer {
+    overflow: auto;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    /* source https://commons.wikimedia.org/wiki/File:D%C3%B6ner_Kebab_in_Istanbul.jpg */
+    background-image: url('abakebabra.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+main {
+    background-color: #eee;
+}
+
+h1 span {
+    display: block;
+    font-size: 0.8em;
+}
+.menubar {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 10%; 
+    flex: 1 1 0%;
+
+}
+.menubar li {
+    display: inline-flex;
+    margin-right: 10px;
+    width: 144px;
+    
+}
+.menubar a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    height: 100px;
+    position: fixed;
+
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.footbar li {
+    display: inline-flex;
+    margin-right: 20px;
+    width: 144px;
+}
+
+.footbar a {
+    text-decoration: none;
+    color: #000;
+}
+main {
+    text-align: center;
+    margin-bottom: 100px;
+    height: 100%;
+}
+.titletext {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex: 1;
+    padding-left: 100px;
+    
+}
+h1 {
+    color: #ffffff;
+    margin-left: 10%;
+    width: 300px;
+    margin-left: 100px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: left;
+}
